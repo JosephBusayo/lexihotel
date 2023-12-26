@@ -1,0 +1,229 @@
+/* box for customer */
+.menu-link:hover .card {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.08);
+}
+
+.menu-link .card-header {
+    padding: 1rem !important;
+}
+
+.menu-link .card-header h2 {
+    font-size: 1.2rem !important;
+}
+
+.menu-link .card-body {
+    padding-top: 0rem !important;
+    padding-bottom: 1rem !important;
+}
+
+
+/* small box */
+.small-box {
+    border-radius: 2px;
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.small-box .inner {
+    padding: 10px;
+}
+
+.small-box .icon {
+    -webkit-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    z-index: 0;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.09);
+}
+
+.small-box .small-box-footer {
+
+    position: relative;
+    text-align: center;
+    padding: 3px 0;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    display: block;
+    z-index: 10;
+    text-decoration: none;
+}
+
+/* add class if vacant */
+.small-box .small-box-footer.vacant {
+    background: #3c8dbc;
+}
+
+/* add class if occupied */
+.small-box .small-box-footer.occupied {
+    background: #fe5461;
+}
+
+/* keyword */
+.keyword {
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.keyword h5 {
+    font: 1.1rem !important;
+    color: #666 !important;
+    margin-bottom: 10px;
+}
+
+.keyword .keyword-box {
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    background-color: #0acb8e;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* keyword occupied */
+.keyword .keyword-box.occupied {
+    background-color: #fd5190;
+}
+
+.keyword .keyword-text {
+    margin-top: -5px !important;
+}
+
+/* form card */
+.form-card {
+    width: 70% !important;
+}
+
+@media (max-width: 767px) {
+    .form-card {
+        width: 100% !important;
+    }
+}
+
+/* menu category */
+ul.category-menu a.nav-link {
+    font-size: 1.06rem !important;
+}
+
+@media (max-width: 567px) {
+    ul.category-menu a.nav-link {
+        font-size: .95rem !important;
+    }
+}
+
+ul.category-menu .dropdown .dropdown-item {
+    font-size: .9rem !important;
+}
+
+ul.category-menu .dropdown-menu {
+    background-color: #fff;
+}
+
+ul.category-menu h6 {
+    font-size: 14px !important;
+    color: #555 !important;
+    text-align: center;
+    padding: 0rem .4rem;
+}
+
+ul.category-menu .dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem !important;
+    clear: both;
+    font-weight: 400;
+    color: #2f2f2f;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+/* on hover */
+ul.category-menu .dropdown-item:hover {
+    background-color: #f5f5f5;
+}
+
+ul.category-menu .dropdown-item:hover i {
+    margin-right: 7px;
+    transition: .5s;
+}
+
+ul.category-menu .dropdown-item i {
+    margin-right: 3px;
+    transition: .5s;
+}
+
+.menu-category h5 {
+    color: #666 !important;
+    font-size: 1rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.item-menu {}
+
+.item-menu span.h6 {
+    color: #ffe !important;
+    margin-bottom: .9rem;
+    font-size: 14px !important;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-transform: capitalize;
+    color: #2f2f2f;
+    white-space: nowrap;
+
+}
+
+.item-menu .d-flex p {
+    font-size: .85rem !important;
+    font-weight: 600;
+}
+
+/* modal */
+.modal .table thead th {
+    text-transform: capitalize !important;
+}
+
+/* sub category color */
+.beer,
+.wine {
+    background-color: brown !important;
+    color: #fff !important;
+}
+
+.soft,
+.whiskey,
+.food {
+    background-color: #357b35;
+    color: #fff !important;
+}
+
+.andre,
+.hennessy {
+    background-color: rebeccapurple;
+    color: #fff !important;
+}
+
+.miscellaneous,
+.spirit {
+    color: orangered;
+}
+
+.champagne,
+.cocktail {
+    color: #fff !important;
+    background-color: teal !important;
+}
+
+.beverages {
+    color: indigo;
+}
